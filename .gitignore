@@ -1,0 +1,5 @@
+.nrepl-*
+target/
+out/
+old-src
+.DS_Store

@@ -1,0 +1,3 @@
+{:require [digglepedia.web.core]
+ :init-fns [digglepedia.web.core/start]
+ :compiler-options {:asset-path "js/main.out"}}

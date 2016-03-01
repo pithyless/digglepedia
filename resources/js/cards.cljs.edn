@@ -1,0 +1,4 @@
+{:require [digglepedia.cards.core]
+ :init-fns [digglepedia.cards.core/start]
+ :compiler-options {:devcards true
+                    :asset-path "js/cards.out"}}
