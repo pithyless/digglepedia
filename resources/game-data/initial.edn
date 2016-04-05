@@ -1,0 +1,164 @@
+[{:game/mod nil :slug "Mods"}
+ {:game/mod nil :parent [:slug "Mods"] :slug "Mods:Base"}
+ {:game/mod nil :parent [:slug "Mods"] :slug "Mods:Realm_of_the_Diggle_Gods"}
+
+ {:slug "Stats"}
+ {:parent [:slug "Stats"] :slug "Stats:Primary"}
+ {:parent [:slug "Stats"] :slug "Stats:Secondary"}
+ {:parent [:slug "Stats"] :slug "Stats:Damage"}
+ {:parent [:slug "Stats"] :slug "Stats:Resistance"}
+ {:parent [:slug "Stats"] :slug "Stats:Level"}
+
+ {:parent [:slug "Stats:Primary"] :primary/scale 0 :primary/buff 0 :secondary/buff 24 :slug "Burliness", :icon "stat_burliness.png"}
+ {:parent [:slug "Stats:Primary"] :primary/scale 1 :primary/buff 1 :secondary/buff 25 :slug "Sagacity", :icon "stat_sagacity.png"}
+ {:parent [:slug "Stats:Primary"] :primary/scale 2 :primary/buff 2 :secondary/buff 26 :slug "Nimbleness", :icon "stat_nimbleness.png"}
+ {:parent [:slug "Stats:Primary"] :primary/scale 3 :primary/buff 3 :secondary/buff 27 :slug "Caddishness", :icon "stat_caddishness.png"}
+ {:parent [:slug "Stats:Primary"] :primary/scale 4 :primary/buff 4 :secondary/buff 28 :slug "Stubborness", :icon "stat_stubborness.png"}
+ {:parent [:slug "Stats:Primary"] :primary/scale 5 :primary/buff 5 :secondary/buff 29 :slug "Savvy", :icon "stat_savvy.png"}
+
+ {:parent [:slug "Stats:Secondary"] :secondary/scale 0  :secondary/buff 0  :slug "Life_Points", :icon "stat_life.png"}
+ {:parent [:slug "Stats:Secondary"] :secondary/scale 1  :secondary/buff 1  :slug "Mana_Points", :icon "stat_mana.png"}
+ {:parent [:slug "Stats:Secondary"] :secondary/scale 2  :secondary/buff 2  :slug "Melee_Power", :icon "stat_meleepower.png"}
+ {:parent [:slug "Stats:Secondary"] :secondary/scale 3  :secondary/buff 3  :slug "Magic_Power", :icon "stat_magicpower.png"}
+ {:parent [:slug "Stats:Secondary"] :secondary/scale 4  :secondary/buff 4  :slug "Critical_Chance", :icon "stat_crit.png"}
+ {:parent [:slug "Stats:Secondary"] :secondary/scale 5  :secondary/buff 5  :slug "Haywire_Chance", :icon "stat_haywire.png"}
+ {:parent [:slug "Stats:Secondary"] :secondary/scale 6  :secondary/buff 6  :slug "Dodge_Chance", :icon "stat_dodge.png"}
+ {:parent [:slug "Stats:Secondary"] :secondary/scale 7  :secondary/buff 7  :slug "Block_Chance", :icon "stat_block.png"}
+ {:parent [:slug "Stats:Secondary"] :secondary/scale 8  :secondary/buff 8  :slug "Counter_Chance", :icon "stat_counter.png"}
+ {:parent [:slug "Stats:Secondary"] :secondary/scale 9  :secondary/buff 9  :slug "Enemy_Dodge_Reduction", :icon "stat_edr.png"}
+ {:parent [:slug "Stats:Secondary"] :secondary/scale 10 :secondary/buff 10 :slug "Armour_Absorption", :icon "stat_armourabsorption.png"}
+ {:parent [:slug "Stats:Secondary"] :secondary/scale 11 :secondary/buff 11 :slug "Magic_Resistance", :icon "stat_magicresistance.png"}
+ {:parent [:slug "Stats:Secondary"] :secondary/scale 12 :secondary/buff 12 :slug "Sneakiness", :icon "stat_sneakiness.png"}
+ {:parent [:slug "Stats:Secondary"] :secondary/scale 13 :secondary/buff 13 :slug "Health_Regeneration_Bonus", :icon "stat_liferegen.png"}
+ {:parent [:slug "Stats:Secondary"] :secondary/scale 14 :secondary/buff 14 :slug "Mana_Regeneration_Bonus", :icon "stat_manaregen.png"}
+ {:parent [:slug "Stats:Secondary"] :secondary/scale 15 :secondary/buff 15 :slug "Wand_Affinity", :icon "stat_wandburn.png"}
+ {:parent [:slug "Stats:Secondary"] :secondary/scale 16 :secondary/buff 16 :slug "Trap_Affinity", :icon "stat_traplevel.png"}
+ {:parent [:slug "Stats:Secondary"] :secondary/scale 17 :secondary/buff 17 :slug "Trap_Sight_Radius", :icon "stat_trapsense.png"}
+ {:parent [:slug "Stats:Secondary"] :secondary/scale 18 :secondary/buff 18 :slug "Sight_Radius", :icon "stat_sight.png"}
+ {:parent [:slug "Stats:Secondary"] :secondary/scale 19 :secondary/buff 19 :slug "Smithing", :icon "stat_smithing.png"}
+ {:parent [:slug "Stats:Secondary"] :secondary/scale 20 :secondary/buff 20 :slug "Tinkering", :icon "stat_tinkerer.png"}
+ {:parent [:slug "Stats:Secondary"] :secondary/scale 21 :secondary/buff 21 :slug "Alchemy", :icon "stat_alchemy.png"}
+ {:parent [:slug "Stats:Secondary"] :secondary/scale 22 :secondary/buff 22 :slug "Magic_Reflection", :icon "stat_reflection.png"}
+ {:parent [:slug "Stats:Secondary"] :secondary/scale 23 :secondary/buff 23 :slug "Wand_Crafting", :icon "stat_wandburn.png"} ;; TODO - same icon as Wand Affinity?
+ {:parent [:slug "Stats:Secondary"] :slug "Experience_Points", :icon "xp_medal.png"}
+
+ {:parent [:slug "Stats:Level"] :secondary/scale 24 :slug "Warrior_Level"}
+ {:parent [:slug "Stats:Level"] :secondary/scale 25 :slug "Wizard_Level"}
+ {:parent [:slug "Stats:Level"] :secondary/scale 26 :slug "Rogue_Level"}
+
+ {:parent [:slug "Stats:Damage"] :slug "Acidic_Damage" :icon "dmg_acidic.png"}
+ {:parent [:slug "Stats:Damage"] :slug "Aethereal_Damage" :icon "dmg_aethereal.png"}
+ {:parent [:slug "Stats:Damage"] :slug "Asphyxiative_Damage", :icon "dmg_aphyxiative.png"}
+ {:parent [:slug "Stats:Damage"] :slug "Blasting_Damage" :icon "dmg_blast.png"}
+ {:parent [:slug "Stats:Damage"] :slug "Conflagratory_Damage" :icon "dmg_conflagratory.png"}
+ {:parent [:slug "Stats:Damage"] :slug "Crushing_Damage" :icon "dmg_crushing.png"}
+ {:parent [:slug "Stats:Damage"] :slug "Existential_Damage" :icon "dmg_existential.png"}
+ {:parent [:slug "Stats:Damage"] :slug "Hyperborean_Damage" :icon "dmg_hyperborean.png"}
+ {:parent [:slug "Stats:Damage"] :slug "Necromantic_Damage" :icon "dmg_necromatic.png"}
+ {:parent [:slug "Stats:Damage"] :slug "Piercing_Damage" :icon "dmg_piercing.png"}
+ {:parent [:slug "Stats:Damage"] :slug "Putrefying_Damage" :icon "dmg_putrefying.png"}
+ {:parent [:slug "Stats:Damage"] :slug "Righteous_Damage" :icon "dmg_righteous.png"}
+ {:parent [:slug "Stats:Damage"] :slug "Slashing_Damage" :icon "dmg_slashing.png"}
+ {:parent [:slug "Stats:Damage"] :slug "Toxic_Damage" :icon "dmg_toxic.png"}
+ {:parent [:slug "Stats:Damage"] :slug "Transmutative_Damage" :icon "dmg_transmutative.png"}
+ {:parent [:slug "Stats:Damage"] :slug "Voltaic_Damage" :icon "dmg_voltaic.png"}
+
+ {:parent [:slug "Stats:Resistance"] :slug "Acidic_Resistance", :icon "dmg_acidic_resist.png"}
+ {:parent [:slug "Stats:Resistance"] :slug "Aethereal_Resistance", :icon "dmg_aethereal_resist.png"}
+ {:parent [:slug "Stats:Resistance"] :slug "Asphyxiative_Resistance", :icon "dmg_aphyxiative_resist.png"}
+ {:parent [:slug "Stats:Resistance"] :slug "Blasting_Resistance", :icon "dmg_blast_resist.png"}
+ {:parent [:slug "Stats:Resistance"] :slug "Conflagratory_Resistance", :icon "dmg_conflagratory_resist.png"}
+ {:parent [:slug "Stats:Resistance"] :slug "Crushing_Resistance", :icon "dmg_crushing_resist.png"}
+ {:parent [:slug "Stats:Resistance"] :slug "Existential_Resistance", :icon "dmg_existential_resist.png"}
+ {:parent [:slug "Stats:Resistance"] :slug "Hyperborean_Resistance", :icon "dmg_hyperborean_resist.png"}
+ {:parent [:slug "Stats:Resistance"] :slug "Necromantic_Resistance", :icon "dmg_necromatic_resist.png"}
+ {:parent [:slug "Stats:Resistance"] :slug "Piercing_Resistance", :icon "dmg_piercing_resist.png"}
+ {:parent [:slug "Stats:Resistance"] :slug "Putrefying_Resistance", :icon "dmg_putrefying_resist.png"}
+ {:parent [:slug "Stats:Resistance"] :slug "Righteous_Resistance", :icon "dmg_righteous_resist.png"}
+ {:parent [:slug "Stats:Resistance"] :slug "Slashing_Resistance", :icon "dmg_slashing_resist.png"}
+ {:parent [:slug "Stats:Resistance"] :slug "Toxic_Resistance", :icon "dmg_toxic_resist.png"}
+ {:parent [:slug "Stats:Resistance"] :slug "Transmutative_Resistance", :icon "dmg_transmutative_resist.png"}
+ {:parent [:slug "Stats:Resistance"] :slug "Voltaic_Resistance", :icon "dmg_voltaic_resist.png"}
+
+ {:slug "Taxa"}
+ {:parent [:slug "Taxa"] :slug "Taxa:Animal"}
+ {:parent [:slug "Taxa"] :slug "Taxa:Demon"}
+ {:parent [:slug "Taxa"] :slug "Taxa:Undead"}
+ {:parent [:slug "Taxa"] :slug "Taxa:Gas_Canister"}
+ {:parent [:slug "Taxa"] :slug "Taxa:Construct"}
+ {:parent [:slug "Taxa"] :slug "Taxa:Other"}
+ {:parent [:slug "Taxa"] :slug "Taxa:Player"}
+ {:parent [:slug "Taxa"] :slug "Taxa:Vegetable"}
+
+ {:slug "Spells"}
+ {:parent [:slug "Spells"] :slug "Spells:Adjacent"}
+ {:parent [:slug "Spells"] :slug "Spells:Beam"}
+ {:parent [:slug "Spells"] :slug "Spells:Digging_Beam"}
+ {:parent [:slug "Spells"] :slug "Spells:Fireball"}
+ {:parent [:slug "Spells"] :slug "Spells:Item"}
+ {:parent [:slug "Spells"] :slug "Spells:Knightly_Leap"}
+ {:parent [:slug "Spells"] :slug "Spells:Missile"}
+ {:parent [:slug "Spells"] :slug "Spells:Rook"}
+ {:parent [:slug "Spells"] :slug "Spells:Self"}
+ {:parent [:slug "Spells"] :slug "Spells:Target"}
+ {:parent [:slug "Spells"] :slug "Spells:Target_Adjacent_Corpse"}
+ {:parent [:slug "Spells"] :slug "Spells:Target_Corpse"}
+ {:parent [:slug "Spells"] :slug "Spells:Target_Empty_Floor"}
+ {:parent [:slug "Spells"] :slug "Spells:Target_Floor"}
+ {:parent [:slug "Spells"] :slug "Spells:Target_Monster"}
+ {:parent [:slug "Spells"] :slug "Spells:Template"}
+
+ {:slug "Effects"}
+ {:parent [:slug "Effects"] :slug "Effects:Buffs"}
+ {:parent [:slug "Effects"] :slug "Effects:Burns_Target"}
+ {:parent [:slug "Effects"] :slug "Effects:Consumes_Item"}
+ {:parent [:slug "Effects"] :slug "Effects:Damages"}
+ {:parent [:slug "Effects"] :slug "Effects:Drains_Life"}
+ {:parent [:slug "Effects"] :slug "Effects:Midas"}
+ {:parent [:slug "Effects"] :slug "Effects:Mine"}
+ {:parent [:slug "Effects"] :slug "Effects:Paralyzes"}
+ {:parent [:slug "Effects"] :slug "Effects:Performs_Melee_Attack"}
+ {:parent [:slug "Effects"] :slug "Effects:Puts_to_Sleep"}
+ {:parent [:slug "Effects"] :slug "Effects:Randomly_Teleports"}
+ {:parent [:slug "Effects"] :slug "Effects:Starts_Bleeding"}
+
+ {:slug "Triggers"}
+ {:parent [:slug "Triggers"] :slug "Triggers:Target_Hit"}
+ {:parent [:slug "Triggers"] :slug "Triggers:Effect"}
+
+ {:slug "Requires"}
+ {:parent [:slug "Requires"] :slug "Requires:Mana_Cost"}
+ {:parent [:slug "Requires"] :slug "Requires:Requires_Shield"}
+ {:parent [:slug "Requires"] :slug "Requires:Requires_Weapon"}
+
+ {:slug "Items"}
+ {:parent [:slug "Items"]         :slug "Items:Armours"}
+ {:parent [:slug "Items"]         :slug "Items:Artifacts"}
+ {:parent [:slug "Items"]         :slug "Items:Gems"}
+ {:parent [:slug "Items"]         :slug "Items:Mushrooms"}
+ {:parent [:slug "Items"]         :slug "Items:Potions"}
+ {:parent [:slug "Items"]         :slug "Items:Wands"}
+ {:parent [:slug "Items"]         :slug "Items:Weapons"}
+
+ {:parent [:slug "Items:Weapons"] :slug "Items:Weapons:Axes"}
+ {:parent [:slug "Items:Weapons"] :slug "Items:Weapons:Bolts"}
+ {:parent [:slug "Items:Weapons"] :slug "Items:Weapons:Bows"}
+ {:parent [:slug "Items:Weapons"] :slug "Items:Weapons:Daggers"}
+ {:parent [:slug "Items:Weapons"] :slug "Items:Weapons:Maces"}
+ {:parent [:slug "Items:Weapons"] :slug "Items:Weapons:Polearms"}
+ {:parent [:slug "Items:Weapons"] :slug "Items:Weapons:Staffs"}
+ {:parent [:slug "Items:Weapons"] :slug "Items:Weapons:Swords"}
+ {:parent [:slug "Items:Weapons"] :slug "Items:Weapons:Thrown"}
+
+ {:parent [:slug "Items:Armours"] :slug "Items:Armours:Chest"}
+ {:parent [:slug "Items:Armours"] :slug "Items:Armours:Feet"}
+ {:parent [:slug "Items:Armours"] :slug "Items:Armours:Hands"}
+ {:parent [:slug "Items:Armours"] :slug "Items:Armours:Head"}
+ {:parent [:slug "Items:Armours"] :slug "Items:Armours:Legs"}
+ {:parent [:slug "Items:Armours"] :slug "Items:Armours:Neck"}
+ {:parent [:slug "Items:Armours"] :slug "Items:Armours:Ring"}
+ {:parent [:slug "Items:Armours"] :slug "Items:Armours:Shield"}
+ {:parent [:slug "Items:Armours"] :slug "Items:Armours:Sleeve"}
+ {:parent [:slug "Items:Armours"] :slug "Items:Armours:Waist"}
+
+ ]
